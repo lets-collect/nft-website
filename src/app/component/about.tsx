@@ -8,22 +8,22 @@ export const About = () => {
           <div className="header-shape">
             <span></span>
           </div>
-          <h3>Our Story </h3>
+          <h3>The Project</h3>
         </div>
         <div className="blog-wrapper ">
           <div className="post-item">
             <div className="post-item-inner">
               <div className="post-content">
-                <h4>Our intention is to create the first NFT funded film.</h4>
+                <h4>The first NFT funded film.</h4>
                 <br />
                 <ul>
                   <li>
                     The conceptualisation of this project and the entire script
                     is the brainchild of actor Vishal Malhotra who was also the
-                    first Indian actor to have released an NFT. A very small
+                    first Indian actor to have released an NFT. 
+                  </li>A very small
                     number of NFTs will be minted to ensure the rarity remains
                     high.
-                  </li>
                   <li>4 categories of NFTs are available for investors.</li>
                   <li> Platinum, Gold, Silver & Bronze.</li>
                   <li>Each Category comes with its advantages.</li>

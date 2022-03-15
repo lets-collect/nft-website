@@ -212,7 +212,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #040b29;
+    background-color: #000000;
     -webkit-font-smoothing: antialiased
 }
 
@@ -317,7 +317,7 @@ a {
 }
 
     a:hover {
-        color: #5138ee;
+        color: #f6992f;
         text-decoration: none;
         outline: none
     }
@@ -715,7 +715,7 @@ ol {
 .widget.widget-tags ul.widget-wrapper li a:hover,
 .paginations ul li a.active,
 .paginations ul li a:hover {
-    background: #5138ee
+    background: #f6992f
 }
 
     .contact-info-wrapper,
@@ -735,7 +735,7 @@ ol {
     .profile-widget,
     .paginations ul li a,
     .activity-item .lab-inner {
-        background: #1a203c
+        background: #000000
     }
 
     .footer-top .social-list .social-link a,
@@ -828,7 +828,7 @@ ol {
 .profile-widget.search-widget .widget-content .nft-search-input,
 .nft-item.home-light,
 .nft-item.home-3 {
-    margin-bottom: 5px
+    margin-bottom: 0px
 }
 
 .comments .comment-list .comment .com-content .com-title .com-title-meta span,
@@ -1082,7 +1082,7 @@ ol {
 }
 
 .theme-color {
-    color: #5138ee
+    color: #cc3507
 }
 
 .theme-color-4 {
@@ -1119,14 +1119,14 @@ ol {
 
 .default-btn {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 0 1.7rem;
     line-height: 40px;
     border-radius: 99px;
     font-size: 1rem;
     transform-origin: right;
     transition: all .3s ease;
-    background: #5138ee;
+    background: #f6992f;
     font-weight: bold
 }
 
@@ -1148,7 +1148,7 @@ ol {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: f6992f;
     transition: transform .5s;
     transform-origin: right;
     transform: scaleX(0);
@@ -1168,7 +1168,7 @@ ol {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: f6992f;
     transition: transform .5s;
     transform-origin: left;
     transform: scaleX(0);
@@ -1208,7 +1208,7 @@ ol {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: #b7c7ff;
     transition: transform .5s;
     transform-origin: top;
     transform: scaleY(0);
@@ -1360,7 +1360,7 @@ ol {
         z-index: 1;
         padding-inline: 1rem;
         text-transform: uppercase;
-        color: #5138ee
+        color: f6992f
     }
 
 @media(min-width: 768px) {
@@ -1431,11 +1431,11 @@ ol {
 
 .nft-item.home-3 {
     transition: all .3s ease;
-    height: 450px;
+    height: 300px;
 }
 
 div#slide-img .nft-item.home-3 .nft-thumb img {
-    height: 250px;
+    height: 500px;
     width: auto
 }
 
@@ -1446,9 +1446,9 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     }
 
     div#slide-img .nft-item.home-3 .nft-thumb img {
-        height: 350px;
+        height: 250px;
         width: auto;
-        margin-top: 70px;
+        margin-top: 50px;
     }
 }
 
@@ -1551,13 +1551,13 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
     }
 
     .nft-item .nft-item-top .author-part .author-list .single-author {
-        gap: 10px
+        gap: 5px
     }
 
         .nft-item .nft-item-top .author-part .author-list .single-author a img {
             border: 2px solid #030010;
             border-radius: 50%;
-            max-width: 44px;
+            max-width: 30px;
             object-fit: cover
         }
 
@@ -1584,7 +1584,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 
     .nft-item .nft-item-top .more-part .dropstart > a.show i {
         transform: rotate(-90deg);
-        color: #5138ee
+        color: #f6992f
     }
 
     .nft-item .nft-item-top .more-part .dropstart .dropdown-menu {
@@ -1607,7 +1607,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 
                 .nft-item .nft-item-top .more-part .dropstart .dropdown-menu li .dropdown-item:hover {
                     background: transparent;
-                    color: #5138ee
+                    color: #f6992f
                 }
 
     .nft-item.style-2 .nft-content .author-thumb {
@@ -1690,7 +1690,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
     .nft-item.blog-item .nft-content .meta-info p i {
-        color: #5138ee
+        color: #f6992f
     }
 
 .nft-item.blog-item.home-2 .nft-content .meta-info date i,
@@ -1766,7 +1766,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
     .nft-item.home-light .nft-content h4 a:hover {
-        color: #5138ee
+        color: #f6992f
     }
 
 .nft-item.home-light .author-part h6 a {
@@ -1774,7 +1774,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
     .nft-item.home-light .author-part h6 a:hover {
-        color: #5138ee
+        color: #f6992f
     }
 
 .nft-item.home-light .author-part h6 .nft-thumb img {
@@ -1786,11 +1786,11 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
 .nft-item.home-light .more-part a:hover i {
-    color: #5138ee
+    color: #f6992f
 }
 
 .nft-item.home-light .price-like .yellow-color {
-    color: #5138ee
+    color: #f6992f
 }
 
 .nft-item.home-light .price-like a,
@@ -1799,7 +1799,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
     .nft-item.home-light .price-like a:hover {
-        color: #5138ee
+        color: #f6992f
     }
 
 .nft-item.home-light .author-number h3 {
@@ -1811,11 +1811,11 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
     .nft-item.home-light .author-det-info h5 a:hover {
-        color: #5138ee
+        color: #f6992f
     }
 
 .nft-item.home-light .author-det-info .yellow-color {
-    color: #5138ee
+    color: #f6992f
 }
 
 .nft-item.home-light .meta-info p {
@@ -1851,7 +1851,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 
 .nft-item-bottom .nft-thumb .nft-countdown {
     width: 92%;
-    background: #5138ee;
+    background: #f6992f;
     left: 10px;
     bottom: 5px;
     gap: 10px;
@@ -1992,7 +1992,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 
 .follow-part.activefollow .btn-follow {
     transition: all .3s ease;
-    background-color: #5138ee
+    background-color: #f6992f
 }
 
     .follow-part.activefollow .btn-follow .follow {
@@ -2016,7 +2016,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
         }
 
 .seller-icon {
-    background: #5138ee;
+    background: #f6992f;
     width: 30px;
     height: 20px;
     border-radius: 2px
@@ -2027,7 +2027,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
         height: 0;
         border-style: solid;
         border-width: 5px 5px 0 5px;
-        border-color: #5138ee transparent transparent transparent;
+        border-color: #f6992f transparent transparent transparent;
         left: 50%;
         transform: translateX(-50%);
         bottom: -5px
@@ -2170,11 +2170,11 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
 }
 
 .scrollToTop.home-light i {
-    color: #5138ee
+    color: #f6992f
 }
 
 .scrollToTop:hover i {
-    color: #5138ee
+    color: #f6992f
 }
 
 .black-color {
@@ -2205,7 +2205,7 @@ div#slide-img .nft-item.home-3 .nft-thumb img {
                 width: 72px;
                 height: 72px;
                 border-radius: 100%;
-                background: #5138ee;
+                background: #f6992f;
                 -webkit-animation: preloader-fx 1.6s linear infinite;
                 animation: preloader-fx 1.6s linear infinite
             }
@@ -2362,7 +2362,7 @@ aside {
         .widget.widget-archive .widget-wrapper li a:hover,
         .widget.widget-category .widget-wrapper li a.active,
         .widget.widget-category .widget-wrapper li a:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
 .widget.widget-post ul.widget-wrapper li .post-thumb {
@@ -2391,7 +2391,7 @@ aside {
     }
 
         .widget.widget-post ul.widget-wrapper li .post-content a h6:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
 .widget.widget-instagram ul.widget-wrapper {
@@ -2475,7 +2475,7 @@ aside {
         }
 
         .widget.shop-widget .widget-wrapper .shop-menu li.open > a {
-            color: #5138ee
+            color: #f6992f
         }
 
         .widget.shop-widget .widget-wrapper .shop-menu li a {
@@ -2494,7 +2494,7 @@ aside {
             }
 
                 .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li.open > a {
-                    color: #5138ee
+                    color: #f6992f
                 }
 
                 .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a {
@@ -2509,7 +2509,7 @@ aside {
 
                     .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a.active,
                     .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li a:hover {
-                        color: #5138ee
+                        color: #f6992f
                     }
 
 .widget.letest-product {
@@ -2532,7 +2532,7 @@ aside {
         }
 
         .widget.letest-product .widget-wrapper ul li:hover .product-content h6 a {
-            color: #5138ee
+            color: #f6992f
         }
 
         .widget.letest-product .widget-wrapper ul li .product-thumb {
@@ -2687,7 +2687,7 @@ aside {
         }
 
             .header.style-light .header__search button i:hover {
-                color: #5138ee
+                color: #3577f3
             }
 
         .header.style-light .header__nav-link,
@@ -2710,35 +2710,35 @@ aside {
         }
 
         .header.style-light .header__nav-link[aria-expanded=true] {
-            color: #5138ee
+            color: #f6992f
         }
 
             .header.style-light .header__nav-link[aria-expanded=true]:before {
-                background-color: #5138ee
+                background-color: #f6992f
             }
 
             .header.style-light .header__nav-link[aria-expanded=true] svg {
-                fill: #5138ee
+                fill: #f6992f
             }
 
         .header.style-light .header__action--profile .dropdown-toggle.show {
-            color: #5138ee
+            color: #f6992f
         }
 
         .header.style-light .header__action--profile .dropdown-menu .dropdown-item:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
         .header.style-light .header__action--profile .dropdown-toggle span:nth-of-type(1) {
-            background-color: #5138ee
+            background-color: #f6992f
         }
 
         .header.style-light .wallet-btn a span i {
-            color: #5138ee
+            color: #f6992f
         }
 
         .header.style-light * a:hover svg {
-            fill: #5138ee
+            fill: #3577f3
         }
 
         .header.style-light.header-fixed {
@@ -2775,7 +2775,7 @@ aside {
 .header.home-4 .drop-down-item.active,
 .header.home-4 .drop-down-item:hover {
     transform: translateX(5px);
-    color: #f3a735 !important
+    color: #3577f3 !important
 }
 
 .header.home-4 .dropdown-toggle:after {
@@ -2783,7 +2783,7 @@ aside {
 }
 
 .header.home-4 .dropdown-toggle:hover {
-    color: #f3a735
+    color: #3577f3
 }
 
 .header.home-4 .dropdown-toggle span:nth-of-type(1) {
@@ -2804,7 +2804,7 @@ aside {
 
 .header.home-4 .header__nav-link:hover svg,
 .header.home-4 .header__nav-link[aria-expanded=true] svg {
-    fill: #f3a735
+    fill: #3577f3
 }
 
 .header.home-4 .wallet-btn a span i {
@@ -2812,11 +2812,11 @@ aside {
 }
 
 .header.home-4 .wallet-btn a:hover {
-    color: #f3a735
+    color: #3577f3
 }
 
 .header.home-4 .header__search button i:hover {
-    color: #f3a735
+    color: #3577f3
 }
 
 .header .header__action--profile .dropdown-toggle span:nth-of-type(1) i {
@@ -2826,7 +2826,7 @@ aside {
 .header .drop-down-item.active,
 .header .drop-down-item:hover {
     transform: translateX(5px);
-    color: #5138ee !important
+    color: #cc3507 !important
 }
 
 .header.header-fixed {
@@ -2839,17 +2839,18 @@ aside {
 }
 
 .bg-theme {
-    background: #5138ee
+    background: #cc3507
 }
 
 .header__content {
     display: flex;
-    height: 70px
+    height: 70px;
+    background: rgba(241, 241, 241, 0.055);
 }
 
 @media(min-width: 768px) {
     .header__content {
-        padding-inline: 5%
+        padding-inline: 05%
     }
 }
 
@@ -2883,7 +2884,7 @@ aside {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 90%;
     width: 22px;
     position: relative;
     margin-left: 20px
@@ -2913,17 +2914,17 @@ aside {
 .header__action--profile .dropdown-toggle span:nth-of-type(1) {
     width: 24px;
     height: 24px;
-    background: #5138ee;
+    background: #f6992f;
     border-radius: 50%
 }
 
     .header__action--profile .dropdown-toggle span:nth-of-type(1) i {
-        color: #040b29;
+        color: #f6992f;
         font-size: 14px
     }
 
 .header__action--profile .dropdown-toggle.show {
-    color: #5138ee
+    color: #f6992f
 }
 
 .header__action--profile .dropdown-menu {
@@ -2936,7 +2937,7 @@ aside {
 
         .header__action--profile .dropdown-menu .dropdown-item:hover {
             background: transparent;
-            color: #5138ee
+            color: #ffffff
         }
 
 .wallet-btn {
@@ -2955,7 +2956,7 @@ aside {
 
     .wallet-btn a span i {
         font-size: 1.7rem;
-        color: #5138ee
+        color: #f6992f
     }
 
 .header__action-btn {
@@ -2985,7 +2986,7 @@ aside {
 }
 
     .header__action-btn i:hover {
-        color: #5138ee
+        color: #f6992f
     }
 
 .header__btn {
@@ -3038,7 +3039,7 @@ aside {
 
 #menu05.header__btn--active span:nth-of-type(1) {
     transform: translateY(9px) rotate(-45deg);
-    background: #5138ee
+    background: #f6992f
 }
 
 #menu05.header__btn--active span:nth-of-type(2) {
@@ -3055,7 +3056,7 @@ aside {
 
 #menu05.header__btn--active span:nth-of-type(3) {
     transform: translateY(-9px) rotate(45deg);
-    background: #5138ee
+    background: #f6992f
 }
 
 .header__search {
@@ -3108,7 +3109,7 @@ aside {
         }
 
             .header__search button i:hover {
-                color: #5138ee
+                color: #f6992f
             }
 
         .header__search button svg {
@@ -3119,7 +3120,7 @@ aside {
         }
 
             .header__search button svg:hover {
-                fill: #5138ee
+                fill: #f6992f
             }
 
         .header__search button.close {
@@ -3139,13 +3140,13 @@ aside {
     top: 70px;
     right: 0;
     bottom: 0;
-    background-color: #040b29;
+    background-color: #0000003b;
     z-index: 99;
     width: 280px;
     padding: 25px 25px 0;
     transform: translate3d(281px, 0, 0);
     transition: transform .5s ease;
-    border-left: 1px solid rgba(255, 255, 255, .1)
+    border-left: 1px solid rgba(255, 115, 0, 0.1)
 }
 
 .header__menu--active {
@@ -3204,7 +3205,7 @@ aside {
     }
 
     .header__nav-link.active svg {
-        fill: #5138ee
+        fill: #f6992f
     }
 
     .header__nav-link svg {
@@ -3243,7 +3244,7 @@ aside {
 
 .header__nav-link:hover svg,
 .header__nav-link[aria-expanded=true] svg {
-    fill: #5138ee
+    fill: #f6992f
 }
 
 .header__nav-menu {
@@ -3566,7 +3567,7 @@ aside {
 }
 
 .page-header-section.style-1 {
-    background-color: #030010;
+    background-color: #03001060;
     border: none;
     padding-top: 125px;
     padding-bottom: 40px
@@ -3600,7 +3601,7 @@ aside {
     }
 
         .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
         .page-header-section.style-1 .page-header-content .page-header-inner .breadcrumb li a::before {
@@ -3633,7 +3634,7 @@ aside {
 }
 
 .page-header-section.style-1 .page-header-content .page-header-inner .page-title .title-text span {
-    color: #5138ee
+    color: #f6992f
 }
 
 .page-header-section.style-1 .page-header-content .page-header-inner .page-title p {
@@ -3663,7 +3664,7 @@ aside {
 
         .auction-section .section-header .header-content .auction-nav .auction-prev:hover,
         .auction-section .section-header .header-content .auction-nav .auction-next:hover {
-            background: #5138ee
+            background: #f6992f
         }
 
 .auction-section .auction-holder {
@@ -3671,7 +3672,7 @@ aside {
 }
 
 .live-icon {
-    background: #5138ee;
+    background: #f6992f;
     width: 30px;
     height: 15px;
     border-radius: 2px
@@ -3680,7 +3681,7 @@ aside {
     .live-icon svg {
         width: 18px;
         height: 18px;
-        fill: #5138ee;
+        fill: #f6992f;
         top: -100%;
         left: 50%;
         transform: translateX(-50%)
@@ -3718,7 +3719,7 @@ aside {
 
         .seller-section .section-header .header-content .seller-filter-btns select {
             color: #fff;
-            background-color: #5138ee;
+            background-color: #f6992f;
             border-radius: 99px;
             border: none;
             padding: .5rem 1rem;
@@ -3738,7 +3739,7 @@ aside {
 
         .seller-section .section-header .header-content .seller-filter-btns .days-select {
             background-color: #fff;
-            color: #5138ee;
+            color: #f6992f;
             background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")
         }
 
@@ -3761,7 +3762,7 @@ aside {
 .view-all-btn {
     font-size: 1.125rem;
     text-transform: uppercase;
-    color: #5138ee;
+    color: #f6992f;
     font-family: "Barlow", sans-serif
 }
 
@@ -3802,7 +3803,7 @@ aside {
 }
 
     .assets-section .section-header .header-content .asset-filter-list .asset-filter-btn.is-checked {
-        color: #5138ee
+        color: #f6992f
     }
 
 .assets-section .nft-item {
@@ -3837,7 +3838,7 @@ aside {
 }
 
     .header-title span i {
-        color: #5138ee;
+        color: #f6992f;
         font-size: calc(1.3125rem + 0.75vw)
     }
 
@@ -3864,7 +3865,7 @@ aside {
 
         .hot-section .section-header .header-content .hot-nav .hot-prev:hover,
         .hot-section .section-header .header-content .hot-nav .hot-next:hover {
-            background: #5138ee
+            background: #f6992f
         }
 
 .sponsor-section .sponsor-wrapper {
@@ -3944,25 +3945,25 @@ aside {
 }
 
 .banner-section {
-    background-color: #030010;
+    background-color: #03001046;
     background-size: cover;
     background-position: center
 }
 
     .banner-section.style-2 .banner-wrapper {
-        padding-top: 183px;
+        padding-top: 100px;
         padding-bottom: 120px
     }
 
 @media(min-width: 992px) {
     .banner-section.style-2 .banner-wrapper {
-        padding-top: 208px;
+        padding-top: 150px;
         padding-bottom: 150px
     }
 }
 
 .banner-section.style-2 .banner-wrapper .banner-content p {
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 30px
 }
 
@@ -3984,23 +3985,23 @@ aside {
     }
 
         .banner-section.home-light .default-btn.move-right {
-            border: 1px solid #5138ee;
-            color: #5138ee
+            border: 1px solid #f6992f;
+            color: #5d2ff6
         }
 
 .banner-section.home-4 .default-btn {
-    background-color: #f3a735;
+    background-color: #f6992f;
     color: #000
 }
 
 .banner-wrapper {
-    padding-top: 152px;
+    padding-top: 100px;
     padding-bottom: 90px
 }
 
 @media(min-width: 992px) {
     .banner-wrapper {
-        padding-top: 175px;
+        padding-top: 100px;
         padding-bottom: 115px
     }
 }
@@ -4309,11 +4310,11 @@ aside {
         height: 0;
         border-style: solid;
         border-width: 5px 8.7px 5px 0;
-        border-color: transparent #5138ee transparent transparent
+        border-color: transparent #f6992f transparent transparent
     }
 
 .profile-details .profile-nav .nav-tabs .nav-link.active {
-    color: #5138ee;
+    color: #f6992f;
     background-color: transparent;
     border: none
 }
@@ -4334,7 +4335,7 @@ aside {
 }
 
 .profile-details .profile-nav .nav-tabs .nav-link:hover {
-    color: #5138ee
+    color: #f6992f
 }
 
 .profile-details .profile-nav .nav-tabs .dropdown .btn {
@@ -4461,18 +4462,18 @@ aside {
         height: 0;
         border-style: solid;
         border-width: 5px 8.7px 5px 0;
-        border-color: transparent #5138ee transparent transparent
+        border-color: transparent #f6992f transparent transparent
     }
 
 .media-wrapper .nav-tp-abs .nav-item .nav-link:focus,
 .media-wrapper .nav-tp-abs .nav-item .nav-link:hover,
 .media-wrapper .nav-tp-abs .nav-item .nav-link:focus-visible {
-    border-bottom-color: #5138ee !important
+    border-bottom-color: #f6992f !important
 }
 
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active {
     color: #fff;
-    border-color: #5138ee;
+    border-color: #f6992f;
     outline: none;
     box-shadow: none
 }
@@ -4488,7 +4489,7 @@ aside {
         height: 0;
         border-style: solid;
         border-width: 8px 8px 0 8px;
-        border-color: #5138ee transparent transparent transparent
+        border-color: #f6992f transparent transparent transparent
     }
 }
 
@@ -4511,7 +4512,7 @@ aside {
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active:focus,
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active:hover,
 .media-wrapper .nav-tp-abs .nav-item .nav-link.active:focus-visible {
-    border-color: #5138ee
+    border-color: #f6992f
 }
 
 .media-wrapper .tab-content .tab-pane .media-title {
@@ -4601,7 +4602,7 @@ aside {
 }
 
     .wallet-title p a {
-        color: #5138ee;
+        color: #f6992f;
         transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1)
     }
 
@@ -4663,7 +4664,7 @@ aside {
 }
 
 .create-nft .upload-item .custom-upload {
-    background: #5138ee;
+    background: #f6992f;
     padding: .5rem 1rem;
     border-radius: 10px;
     transition: all .3s ease;
@@ -4694,12 +4695,12 @@ aside {
 
         .create-nft .item-category-field .item-cat-list .item-cat-btn.active,
         .create-nft .item-category-field .item-cat-list .item-cat-btn:hover {
-            background: #5138ee;
+            background: #f6992f;
             border-color: transparent
         }
 
 .create-nft .submit-btn-field button {
-    background: #5138ee;
+    background: #f6992f;
     border: none;
     color: #fff;
     padding: 1.125rem 2rem;
@@ -4715,7 +4716,7 @@ aside {
 .form-floating > .form-control:focus ~ label,
 .form-floating > .form-control:not(:placeholder-shown) ~ label,
 .form-floating > .form-select ~ label {
-    color: #5138ee;
+    color: #f6992f;
     opacity: .8
 }
 
@@ -4790,7 +4791,7 @@ aside {
             font-size: 1rem;
             padding: 2px 10px;
             color: #fff;
-            background-color: #5138ee;
+            background-color: #f6992f;
             border-radius: 3px;
             opacity: 1;
             will-change: opacity, transform;
@@ -4850,7 +4851,7 @@ aside {
 
             .item-desc-part .item-desc-content .nav-tabs .nav-link.active {
                 background: transparent;
-                color: #5138ee
+                color: #f6992f
             }
 
                 .item-desc-part .item-desc-content .nav-tabs .nav-link.active:after {
@@ -4930,14 +4931,14 @@ aside {
 }
 
 .item-desc-part .item-desc-content .history-tab .item-histo-list {
-    border-left: 1px dashed #5138ee
+    border-left: 1px dashed #f6992f
 }
 
     .item-desc-part .item-desc-content .history-tab .item-histo-list .histo-item::before {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #5138ee;
+        background-color: #f6992f;
         left: -25px;
         top: 5px
     }
@@ -4982,7 +4983,7 @@ aside {
 }
 
     .nft-item-title .share-btn .dropdown-item:hover {
-        color: #5138ee;
+        color: #f6992f;
         background: transparent
     }
 
@@ -5022,7 +5023,7 @@ aside {
 }
 
 .item-price p span i {
-    color: #5138ee
+    color: #f6992f
 }
 
 .buying-btns {
@@ -5057,7 +5058,7 @@ aside {
         }
 
             .account-wrapper .cate a:hover {
-                color: #5138ee
+                color: #f6992f
             }
 
 @media(min-width: 576px) {
@@ -5149,7 +5150,7 @@ aside {
 }
 
 .account-form .form-group a:hover {
-    color: #5138ee
+    color: #f6992f
 }
 
 .account-form .form-group button {
@@ -5263,7 +5264,7 @@ aside {
 
 .st1 {
     fill: #fff;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5273,7 +5274,7 @@ aside {
 .st2 {
     fill-rule: evenodd;
     clip-rule: evenodd;
-    fill: #5138ee
+    fill: #f6992f
 }
 
 .st3 {
@@ -5284,7 +5285,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: #e8ebed;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5295,7 +5296,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: #fff;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5306,7 +5307,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: none;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5317,7 +5318,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: none;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 4;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5328,7 +5329,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: #fff;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5336,20 +5337,20 @@ aside {
 }
 
 .st9 {
-    fill: #5138ee
+    fill: #f6992f
 }
 
 .st10 {
     fill-rule: evenodd;
     clip-rule: evenodd;
-    fill: #5138ee
+    fill: #f6992f
 }
 
 .st11 {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: none;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -5377,7 +5378,7 @@ aside {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: none;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 10
@@ -5385,7 +5386,7 @@ aside {
 
 .st15 {
     fill: none;
-    stroke: #5138ee;
+    stroke: #f6992f;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 10
@@ -6875,7 +6876,7 @@ lesshat-selector {
     }
 
         .coming-wrapper .event-count .rounded-circle {
-            border: 2px solid #5138ee;
+            border: 2px solid #f6992f;
             height: 80px;
             width: 80px;
             flex-direction: column;
@@ -6923,12 +6924,12 @@ lesshat-selector {
 
     .blog-section .post-item-inner .post-content .meta {
         font-size: 16px;
-        color: #5138ee
+        color: #f6992f
     }
 
         .blog-section .post-item-inner .post-content .meta a {
             font-weight: 500;
-            color: #5138ee
+            color: #f6992f
         }
 
     .blog-section .post-item-inner .post-content h4 > a {
@@ -6957,7 +6958,7 @@ lesshat-selector {
     }
 
         .blog-section .post-item-inner .blog-footer .blog-comment:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
 .blog-section .post-item-inner:hover {
@@ -6965,11 +6966,11 @@ lesshat-selector {
 }
 
     .blog-section .post-item-inner:hover h4 > a {
-        color: #5138ee
+        color: #f6992f
     }
 
     .blog-section .post-item-inner:hover .viewall {
-        color: #5138ee
+        color: #f6992f
     }
 
     .blog-section .post-item-inner:hover .post-thumb a img {
@@ -6981,7 +6982,7 @@ lesshat-selector {
 }
 
     .blog-section .main-blog .blog-wrapper .post-item .post-item-inner:hover .post-content h3 a {
-        color: #5138ee
+        color: #f6992f
     }
 
     .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .post-content h3 a {
@@ -7053,7 +7054,7 @@ lesshat-selector {
 }
 
 .blog-section .main-blog .blog-wrapper .post-item .post-item-inner .blog-footer .right .blog-heart:hover {
-    color: #5138ee
+    color: #f6992f
 }
 
 .blog-section .main-blog .blog-wrapper .post-item.post-slider .post-item-inner:hover .post-thumb img {
@@ -7177,7 +7178,7 @@ lesshat-selector {
     }
 
         .blog-section .main-blog .blog-wrapper .post-item .tags-section .social-link-list li a {
-            background-color: #5138ee;
+            background-color: #f6992f;
             height: 40px;
             width: 40px;
             line-height: 40px;
@@ -7263,11 +7264,11 @@ lesshat-selector {
     }
 
         .comments .comment-list .comment .com-content .com-title .com-title-meta h4 a:hover {
-            color: #5138ee
+            color: #f6992f
         }
 
     .comments .comment-list .comment .com-content .com-title .reply a {
-        color: #5138ee
+        color: #f6992f
     }
 
 @media(min-width: 576px) {
@@ -7359,7 +7360,7 @@ lesshat-selector {
         }
 
 .col-12:nth-child(2) .contact-item .contact-icon i {
-    background: #5138ee
+    background: #f6992f
 }
 
 .col-12:nth-child(3) .contact-item .contact-icon i {
@@ -7529,7 +7530,7 @@ lesshat-selector {
     height: 50px;
     padding-inline: 1.5rem;
     border-radius: 2px;
-    background: #5138ee;
+    background: #f6992f;
     color: #fff;
     text-transform: uppercase;
     transition: all .3s ease
@@ -7544,7 +7545,7 @@ lesshat-selector {
 }
 
     .footer-top .social-list .social-link a {
-        background: #5138ee;
+        background: #f6992f;
         color: #fff;
         width: 40px;
         height: 40px;
@@ -7574,7 +7575,7 @@ lesshat-selector {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        border: 2px solid #5138ee;
+        border: 2px solid #f6992f;
         left: 0;
         top: 50%;
         transform: translateY(-50%)
@@ -7641,7 +7642,7 @@ lesshat-selector {
 }
 
 
-/*# sourceMappingURL=style.min.css.map */
+# sourceMappingURL=style.min.css.map
 
 body.home-3 {
     background: url(../images/bg-texture.png) #151716;
@@ -7665,7 +7666,7 @@ body.home-3 {
 
 .header__nav-link {
     font-size: 18px;
-    color: #5138ee;
+    color: #f6992f;
     font-family: "Barlow", sans-serif;
     height: 22px;
     font-weight: 500;
@@ -7674,7 +7675,7 @@ body.home-3 {
 }
 
 .active.header__nav-link {
-    color: #5138ee;
+    color: #f6992f;
 }
 
 .nft-content {
@@ -7706,15 +7707,15 @@ body.home-3 {
     border: 0px solid rgba(255, 255, 255, .15);
 }
 
-/*div#slide-img .nft-item.home-3 .nft-thumb img {
+div#slide-img .nft-item.home-3 .nft-thumb img {
     border-radius: 0px;
     height: auto !important;
     width: auto !important;
 }
-*/
+
 .banner-section {
-    background-image: url(../images/banner/bg1.jpg);
-    background-position: top center;
+    background-image: url(../images/banner/bg1.png);
+    background-position: absolute top center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -7722,17 +7723,18 @@ body.home-3 {
 
 
 
+
 @media (max-width: 992px) {
 
     .banner-wrapper {
-        padding-top: 66px;
-        padding-bottom: 60px;
+        padding-top: 10px;
+        padding-bottom: 120px;
     }
 }
 
     .nft-item-bottom .nft-content {
         padding-inline: 10px;
-        padding-bottom: 25px;
+        padding-bottom: 120px;
     }
 
         .nft-item-bottom .nft-content h4 {

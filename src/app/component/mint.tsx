@@ -180,23 +180,29 @@ export const Mint = () => {
             <span></span>
           </div>
           <h3>Mint</h3>
+          <p><em> For attaining the following Producer status</em></p>
         </div>
 
         <div className="section-wrapper">
           <div className="blog-wrapper">
             <div className="row justify-content-center gx-4 gy-2">
-              <MintCard
+             
+                 <MintCard
                 animation="/assets/images/mint/Plantinum.mp4"
                 image="/assets/images/mint/Plantinum.png"
                 nftType="Plantinum"
                 disabled={disabled}
               />
+              
+             
               <MintCard
                 animation="/assets/images/mint/Gold.mp4"
                 image="/assets/images/mint/Gold.png"
                 nftType="Gold"
                 disabled={disabled}
               />
+             
+      
               <MintCard
                 animation="/assets/images/mint/Silver.mp4"
                 image="/assets/images/mint/Silver.png"
@@ -209,6 +215,9 @@ export const Mint = () => {
                 nftType="Bronze"
                 disabled={disabled}
               />
+              
+              
+              
             </div>
           </div>
         </div>

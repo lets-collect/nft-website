@@ -3,25 +3,31 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer-section">
+      <hr />
       <div className="footer-bottom">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              <p className="text-center py-4 mb-0">© Letscollect</p>
+          
+            
+            <div className="text-center py-2 mb-0 ">
+              
+              <img src="/favicon-32x32.png" alt="LOGO" className="p-2 h-25" />
+              <p>             
+              © Lets Collect
+              </p>                   
+                                                            
+          
+          
+              <p className="">All Rights Reserved</p>
+              <hr />
+              
             </div>
-            <div className="col-lg-3">
-              <p className="text-center py-4 mb-0"></p>
-            </div>
-            <div className="col-lg-3">
-              <p className="text-center py-4 mb-0"></p>
-            </div>
-            <div className="col-lg-3">
-              <p className="text-center py-4 mb-0">Terms &amp; Conditions</p>
-            </div>
+          
           </div>
         </div>
-      </div>
+      
     </footer>
+   
+
   );
 };
 

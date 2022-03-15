@@ -21,10 +21,11 @@ const Header = () => {
   }
   return (
     <header className="header ">
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="header__content">
           <div className="header__logo">
-            <a href="index.html">Letscollect</a>
+            <img src="/apple-touch-icon.png" alt="" className="h-50" />
+            <a className="" href="index.html"><h5>Lets Collect</h5></a>
           </div>
 
           <div className="header__menu ms-auto">
@@ -70,7 +71,7 @@ const Header = () => {
           <button className="menu-trigger header__btn" id="menu05">
             <span></span>
             <span></span>
-            <span></span>
+           
           </button>
         </div>
       </div>
